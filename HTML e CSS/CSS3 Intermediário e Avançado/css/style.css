@@ -1,0 +1,83 @@
+/* Seletor universal 
+
+* {
+border: 1px solid red;
+}*/
+
+/* Seletor de texto 
+h1 {
+    color: green;
+} */
+
+
+/* Seletor de classe 
+
+
+p.verde {
+    color: green;
+}
+
+#cabecalho {
+    border: 1px solid blue;
+}*/
+
+/*Seletor de filho
+
+li>a {
+
+    color: red;
+    text-decoration: none;
+}*/
+
+/*Seletor descendente 
+
+div a {
+    color: green;
+} */
+
+/*Seletor adjacente 
+
+h1+p {
+    color: red;
+}*/
+
+/*Seletor irmão geral 
+
+
+div~h1~p {
+    color: pink;
+}*/
+
+/* Barra de Navegação Vertical
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 10px 20px;
+    background: url(../imagens/seta.png) no-repeat left center;
+} */
+
+
+/* Herança e especificidade */
+
+* { /*4*/
+    color: red;
+}
+
+h2 { /*3*/
+    color: blue;
+}
+
+h2.verde { /*2*/
+    color: green;
+}
+
+h2#amarelo { /*1*/
+    color: yellow;
+}
+
+/*O mais específico será aplicado a formatação primeiro.*/

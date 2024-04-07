@@ -1,0 +1,21 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    width: 720px;
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 7px;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    text-align: left;
+    border-bottom: 1px solid black;
+}

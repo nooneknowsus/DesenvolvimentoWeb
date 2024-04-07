@@ -1,0 +1,33 @@
+/**/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1em;
+    background: #E3E3E3;
+}
+
+#area-cabecalho {
+    background: #FFF;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-menu{
+    padding: 15px;
+}
+
+/*Formatação Menu*/
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background: #FFF;
+    color: white;
+}
